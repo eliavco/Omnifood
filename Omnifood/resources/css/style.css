@@ -158,6 +158,7 @@ Collapse All Code: alt+1
         background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/hero.jpg);
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         height: 100vh;
     }
 
@@ -218,6 +219,20 @@ Collapse All Code: alt+1
             margin-bottom: 15px;
         }
 
+        .icon-small{
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+            color: #e67e22;
+            font-size: 120%;
+            margin-right: 10px;
+            
+            /* Align Text And Icons */
+            line-height: 120%;
+            vertical-align: middle;
+            margin-top: -4px;
+        }
+
 /*-----------------------------*/
 /*      -Favorite Meals-       */
 /*-----------------------------*/
@@ -265,54 +280,132 @@ Collapse All Code: alt+1
 
     /* -Steps Box- */
 
-    .steps-box{ margin-top: 30px; }
+        .steps-box{ margin-top: 30px; }
 
-    .steps-box:first-child{
-        text-align: right;
-        padding-right: 3%;
-        margin-top: 30px;
-    }
+        .steps-box:first-child{
+            text-align: right;
+            padding-right: 3%;
+            margin-top: 30px;
+        }
 
-    .steps-box:last-child{
-        padding-left: 3%;
-        margin-top: 70px;
-    }
+        .steps-box:last-child{
+            padding-left: 3%;
+            margin-top: 70px;
+        }
 
-    .works-steps{
-        margin-bottom: 50px;
-    }
+        .works-steps{ margin-bottom: 50px; }
 
-    .works-steps:last-of-type{
-        margin-bottom: 80px;
-    }
+        .works-steps:last-of-type{ margin-bottom: 80px; }
 
-    .works-steps div{
-        color: #e67e22;
-        border: 2px solid #e67e22;
-        display: inline-block;
-        border-radius: 50%;
-        height: 55px;
-        width: 55px;
-        text-align: center;
-        padding: 5px;
-        float: left;
-        font-size: 150%;
-        margin-right: 25px;
-    }
+        .works-steps div{
+            color: #e67e22;
+            border: 2px solid #e67e22;
+            display: inline-block;
+            border-radius: 50%;
+            height: 55px;
+            width: 55px;
+            text-align: center;
+            padding: 7px;
+            float: left;
+            font-size: 150%;
+            margin-right: 25px;
+        }
 
     /* -Screen Shot- */
 
-    .app-screen{
-        width: 40%;
-    }
+        .app-screen{ width: 40%; }
 
     /* -Apps' Buttons- */
 
-    .btn-app img{
-        height: 50px;
-        width: auto;
-        margin-right: 10px;
-    }
+        .btn-app img{
+            height: 50px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+/*-----------------------------*/
+/*          -Cities-           */
+/*-----------------------------*/
+
+    /* -Images- */
+    
+        .box img{
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+    /* -Features- */
+
+        .city-features{ margin-bottom: 5px; }
+
+        .city-twitter-link{
+            color: #e67e22;
+            text-decoration: none;
+        }
+
+        .city-link-inner{
+            transition: border-bottom 0.7s;
+            border-bottom: 0.5px #e67e22 solid;
+        }
+
+        .city-link-inner:hover{ border-bottom: 0.5px solid transparent; }
+
+/*-----------------------------*/
+/*       -Testimonials-        */
+/*-----------------------------*/
+
+        .section-testimonials{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+        .section-testimonials h2:after{ display: none; }
+
+        .section-testimonials h2{ margin-bottom: 30px; }
+
+        /* -Recommendations- */
+
+            blockquote{
+                padding: 2%;
+                font-style: italic;
+                line-height: 145%;
+                text-align: justify;
+                position: relative;
+            }
+
+            blockquote:before{
+                content: "\201C";
+                font-size: 400%;
+                display: block;
+                position: absolute;
+                top: -5px;
+                left: -3px;
+            }
+
+            cite{
+                font-size: 90%;
+                margin-top: 25px;
+                display: block;
+                text-align: left;
+                font-style: normal;
+            }
+
+            cite img{
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+                vertical-align: middle;
+            }
+
+
+
+
+
+
+
 
 
 
