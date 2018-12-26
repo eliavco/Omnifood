@@ -326,8 +326,118 @@
             </div>
         </section>
         
+        <!-- Contact Us Section -->
+        <section class="section-contact">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form class="contact-form">
+                    
+                    <!-- Name -->
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your Name" autocomplete="off" required>
+                        </div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your Email" autocomplete="off" required>
+                        </div>
+                    </div>    
+                    
+                    <!-- How did you find us? -->
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3 custom-select" style="width: 66%;">
+                            <select name="find-us" id="find-us">
+                                <option value="" class="find-us-option" selected>Choose</option>
+                                <option value="friends" class="find-us-option">Friends</option>
+                                <option value="search" class="find-us-option">Search Engine</option>
+                                <option value="ad" class="find-us-option">Advertisement</option>
+                                <option value="other" class="find-us-option">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                                      
+                    <!-- Newsletter -->
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="news">Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <label class="container">
+                                <input type="checkbox" name="news" id="news" checked> Yes, Please!
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                                                            
+                    <!-- Drop us a line! -->
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Drop Us a Line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" id="message" placeholder="Your Message" autocomplete="off"></textarea>
+                        </div>
+                    </div>
+                                                                                
+                    <!-- Submit -->
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send It!">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    &copy; Copyright 2018 by Omniliav. All rights reserved. 
+                </p>
+            </div>
+        </footer>
+        
     <script src="resources/js/javascript.js"></script>
     <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+    <script src="resources/js/select.js"></script>
         
     </body>
 </html>
