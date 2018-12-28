@@ -460,6 +460,8 @@ Collapse All Code: alt+1
 /*-----------------------------*/
 
         /* -Select- */
+    
+        #select{ width: 66%; }
 
             /* The container must be positioned relative: */
             .custom-select { position: relative; }
