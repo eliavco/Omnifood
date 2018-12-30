@@ -51,6 +51,9 @@
     
     .contact-form{ width: 80%; }
     
+    .js--sticky-nav .main-nav li a:link,
+    .js--sticky-nav .main-nav li a:visited{ padding: 22px 0; }
+    
 }
 
 /* 985 px */
