@@ -188,6 +188,8 @@ Collapse All Code: alt+1
         margin-top: 20px;
     }
 
+    .logo-black{ display: none; }
+
     .main-nav{
         float: right;
         list-style: none;
