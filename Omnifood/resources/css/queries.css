@@ -52,7 +52,7 @@
     .contact-form{ width: 80%; }
     
     .js--sticky-nav .main-nav li a:link,
-    .js--sticky-nav .main-nav li a:visited{ padding: 22px 0; }
+    .js--sticky-nav .main-nav li a:visited{ padding: 23px 0; }
     
 }
 
@@ -160,7 +160,17 @@
     
     .works-steps{ font-size: 90%; }
     
-    .main-nav{ display: none; }
+    .mobile-nav-icon{ display: inline-block; }
+    
+    .main-nav{ float: left; }
+    
+    .main-nav li{ display: block; }
+    
+    .main-nav li:link,
+    .main-nav li:visited{
+        border: 0;
+        display: block;
+    }
     
     .btn-app img{ height: 35px; }
     

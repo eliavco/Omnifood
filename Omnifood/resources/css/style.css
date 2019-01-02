@@ -6,7 +6,25 @@ Collapse All Code: alt+1
 /*-----------------------------*/
 /*        -Basic Setup-        */
 /*-----------------------------*/
-    
+
+    .btn-beginning{
+        position: fixed;
+        bottom: 20px;
+        right: 40px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .btn-beginning i{
+        color: #555;
+        margin-top: 5.5px;
+        margin-left: 6px;
+    }
+
+    .btn-beginning-top{ display: none; } 
+
     html,
     body{
         overflow-x: hidden;
@@ -659,8 +677,8 @@ Collapse All Code: alt+1
         .ion-social-facebook:hover,
         .ion-social-facebook:active{ color: #3b5998; }
 
-        .ion-social-twitter:hover,
-        .ion-social-twitter:active{ color: #1da1f2; }
+        .ion-social-twitter-special:hover,
+        .ion-social-twitter-special:active{ color: #1da1f2; }
 
         .ion-social-googleplus:hover,
         .ion-social-googleplus:active{ color: #db4437; }
