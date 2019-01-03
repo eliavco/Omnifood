@@ -160,17 +160,57 @@
     
     .works-steps{ font-size: 90%; }
     
-    .mobile-nav-icon{ display: inline-block; }
+    .main-nav{ display: none; }
     
-    .main-nav{ float: left; }
-    
-    .main-nav li{ display: block; }
-    
-    .main-nav li:link,
-    .main-nav li:visited{
-        border: 0;
-        display: block;
+    .mobile-nav-icon{
+        display: inline-block;
+        margin-top: 17px;
     }
+    
+    .mobile-nav{
+        display: inherit;
+        float: left;
+        margin-top: 17px;
+    }
+    
+    .mobile-nav li{
+        display: block;
+        margin-left: 17px;
+    }
+    
+    .mobile-nav li a:link,
+    .mobile-nav li a:visited{
+        display: block;
+        padding: 5px 0;
+        transition: border-bottom 0.2s;
+        border: 0;
+    }
+    
+    .mobile-nav li a:hover,
+    .mobile-nav li a:active{ border: 0 transparent; }
+    
+    .js--sticky-nav .main-nav{ margin-top: 10px; }
+    
+    .js--sticky-nav .mobile-nav li a:link,
+    .js--sticky-nav .mobile-nav li a:visited{
+        display: block;
+        padding: 5px 0;
+    }
+    
+    .js--sticky-nav .mobile-nav li a:first-child{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .js--sticky-nav .mobile-nav li a:last-child{ padding-bottom: 10px; }
+       
+    .js--sticky-nav .mobile-nav-icon i{
+        display: inline-block;
+        color: #555;
+        margin-top: -12px;
+    }
+    
+    .js--sticky-nav .logo-black{ margin-top: 10px; }
     
     .btn-app img{ height: 35px; }
     
@@ -191,6 +231,12 @@
         visibility: hidden;
     }
      
+    .word-break{ display: block; }
+    
+    .disappear{ display: none; }
+     
+    .hero-text-box{ margin-top: 50px; }
+    
 }
 
 /* 650 px */
@@ -201,10 +247,6 @@
     .app-screen{ width: 70%; }
     
     .works-steps{ font-size: 85%; }
-    
-    .word-break{ display: block; }
-    
-    .disappear{ display: none; }
     
     .quote{
         width: 100%;

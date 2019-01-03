@@ -13,3 +13,9 @@
 .js--wp-3{ opacity: 0; }
 
 .js--wp-3.animated{ opacity: 1; }
+
+/* */
+
+.mobile-nav{ opacity: 0; }
+
+.mobile-nav.animated{ opacity: 1; }

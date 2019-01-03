@@ -22,7 +22,7 @@ $(document).ready(function(){
             }
           },{
             offset: '71px;'
-        })
+        });
     
     
 ////    Scrolling to Elements
@@ -120,4 +120,23 @@ $(document).ready(function(){
         $('.js--wp-3').waypoint(animationRemove,{offset: '100%'});
         $('.js--wp-4').waypoint(animationRemove,{offset: '100%'});
     
+////    Mobile Navigation
+        
+        $('.js--nav-icon').click(function(){
+            var nav = $('.js--main-nav');
+            var icon = $('.js--nav-icon i');
+            if (nav.hasClass('mobile-nav')){
+                nav.removeClass('mobile-nav animated bounceIn');
+            } else {
+                nav.addClass('mobile-nav animated bounceIn');
+            }
+            if (icon.hasClass('ion-navicon-round')){
+                icon.removeClass('ion-navicon-round tada');
+                icon.addClass('ion-close-round tada');
+            } else {
+                icon.removeClass('ion-close-round tada');
+                icon.addClass('ion-navicon-round tada');
+            }
+        });
+
 });
